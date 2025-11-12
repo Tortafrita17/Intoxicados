@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 8, 56);
+    color: white;
+}
+
+/* header */
+.logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    gap: 40px;
+    padding: 20px 10px;
+}
+
+nav a {
+    color: white;
+    text-align: end;
+}
+
+/* letra */
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+/* la intro */
+.intro {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.album-descripcion {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.album-descripcion p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* tablas */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+    border: 1px solid white;
+    color: white;
+}
+
+td img {
+    max-width: 80%;
+    width: 80%;
+    display: inline-block;
+}
+
+td:first-child {
+    width: 50%;
+    text-align: center;
+}
+
+td:last-child {
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+/* listas */
+ol {
+    margin: 0;
+    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
+}
+
+ol li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 0;
+}
+
+ol li:last-child {
+    border-bottom: none;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
+}
