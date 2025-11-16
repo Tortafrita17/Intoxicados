@@ -8,19 +8,16 @@ formulario.addEventListener('submit', function(e) {
     const fechaNacimiento = document.getElementById('fecha-nacimiento').value;
     const nombre = document.getElementById('nombre').value;
     
-    // Contraseña igual
     if (password !== confirmPassword) {
-        alert('Las contraseñas no coinciden. Por favor, verificá que sean iguales.');
+        alert('no me coinciden las contras bro');
         return;
     }
     
-    // Longitud de contra
     if (password.length < 8) {
-        alert('La contraseña debe tener al menos 8 caracteres.');
+        alert('Tu contra tiene q ser más larga pa');
         return;
     }
     
-    // Edad mayor a 13
     if (fechaNacimiento) {
         const hoy = new Date();
         const nacimiento = new Date(fechaNacimiento);
@@ -32,7 +29,7 @@ formulario.addEventListener('submit', function(e) {
         }
         
         if (edad < 13) {
-            alert('Debes tener al menos 13 años para registrarte.');
+            alert('Sos muy pibe para ser una vieja loca');
             return;
         }
     }
